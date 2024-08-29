@@ -1,0 +1,16 @@
+/* Experience section */
+.experience-item {
+    margin-bottom: 20px;
+    background-color: blue;
+}
+
+.experience-item h3 {
+    font-size: 1.5em;
+    color: #5d5c61;
+    background-color: blue;
+}
+
+.experience-item p {
+    font-size: 1em;
+    color: #555;
+}

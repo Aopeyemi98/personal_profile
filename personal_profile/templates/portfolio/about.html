@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'portfolio/section.css' %}">
+
+<section>
+    <style>
+      
+        img {
+            width: 400px;
+            height: auto;
+            float: right;
+            border: 2px solid #5d5c61;
+        }
+
+        .box {
+            padding: 0px 20px;
+        }
+
+        .box p {
+            letter-spacing: 1px;
+            line-height: 30px;
+            text-align: left;
+            text-indent: 10px;
+        }
+        .box p a{
+            color: #00adb5;
+        }
+
+        .box p a:hover{
+            color: #ff2e63;
+        }
+    </style>
+
+    <h2>About Me</h2>
+    
+    <img src="{% static 'image/mypassport.jpg' %}" alt="Opeyemi Adenuga">
+    <div class="box">
+        <p>I'm Opeyemi Adenuga, I studied Biochemistry from the University of Olabisi Onabanjo, Ogun state Nigeria. My journey into programming started out of sheer curiosity. I was always fascinated by how websites and apps worked behind the scenes. One day, I conceived the idea to learn a digital skills, so I started with free online tutorial on <a href="https://www.w3schools.com ">w3schools</a>. I began by learning HTML. The more I learned, the more I wanted to know.</p>
+        <P>My first line of code was a simple <strong>"HELLO WORLD!"</strong>. It might seem basic, but seeing those words appear on the screen felt like magic. it was the moment i realized that with just a few keystrokes, i could communicate with the computer and make it do something, That small achievement sparked a curiosity in me to explore what else I could create with code. It was a humble beginning, but it marked the start of an exciting journey into the world of programming.</P>
+        
+        <p>I choose programming among many other skills because of its creative and technical synergy.
+        I was drawn to programming because it blends creativity with technical precision. Unlike some other digital skills that might focus on design and analysis alone, programming challenges me to think creatively while also adhering to logical structures. it's this balance that keeps me engaged and constantly learning.
+        Over time, I've developed a diverse skill set that spans across various aspects of <a href="https://docs.python.org/3/">Python Programming</a>. I am highly motivated by the idea of continuous growth and learning. While learning Opeyemi has built small websites and APIs for local businesses, creating functional yet elegant looks.</p>
+        <p>Looking forward, I am eager to apply my skills in a collaborative environment where I can contribute to innovative projects and learn from experienced professionals. My goal is to not only refine my existing skills but also to explore new areas like Machine learning, Data analysis and Automation
+        The world of algorithms, data structures, and complex programming languages was overwhelming at first, but Opeyemi had a secret weapon: persistence and never quit spirit. Hours would be spent writing and rewriting code, determined to master every concept. Opeyemi would dig deeper, knowing that every obstacle was a stepping stone to becoming a better programmer.</p></p>
+    </div>
+</section>
+{% endblock %}

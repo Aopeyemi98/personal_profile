@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'portfolio/section.css' %}">
+<link rel="stylesheet" href="{% static 'portfolio/experience.css' %}">
+
+
+<section>
+    <h2>Experience</h2>
+    {% for experience in experiences %}
+    <div class="experience-item">
+        <h3>{{ experience.title }}</h3>
+        <p>{{ experience.company }}</p>
+        <p>{{ experience.description }}</p>
+    </div>
+    {% endfor %}
+</section>
+{% endblock %}

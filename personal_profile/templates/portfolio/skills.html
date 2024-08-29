@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'portfolio/section.css' %}">
+<link rel="stylesheet" href="{% static 'portfolio/skills.css' %}">
+
+<section>
+    <h2>Skills</h2>
+    <ul class="skills">
+        <li>Python</li>
+        <li>Django</li>
+        <li>FastAPI</li>
+        <li>Git & Github</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstraps</li>
+    </ul>
+</section>
+{% endblock %}
